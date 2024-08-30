@@ -2,7 +2,7 @@
 
 
 /*
-this is to change font to correct
+this is to change font to correct; are these buttons???? 
 */
 *{
   box-sizing: border-box;
@@ -32,3 +32,29 @@ ul{
   list-style-type: none;
 }
 
+.btn-container {
+  display: inline-block; /* or flex, depending on your preference */
+  margin-right: 10px; /* add some space between the buttons */
+}
+
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248,217,15);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light{
+  background: transparent;
+  color: #fff;
+}
+
+.btn:hover{
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  transition: 0.3s;
+}
