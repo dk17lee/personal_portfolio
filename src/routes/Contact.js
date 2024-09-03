@@ -1,9 +1,19 @@
-import React from 'react'
+    import React from 'react'
+    import Navbar from '../components/Navbar';
+    import Footer from '../components/Footer';
+    import HeroImg2 from '../components/HeroImg2';
+    import { Form } from 'react-router-dom';
 
-const Contact = () => {
-  return (
-    <div>contact</div>
-  )
-}
 
-export default Contact
+    const Contact = () => {
+      return (
+        <div>
+          <Navbar/>
+          <HeroImg2 heading = "CONTACT." text = "Let's chat!"/>
+          <Form/>
+          <Footer/>
+        </div>
+      )
+    }
+
+    export default Contact

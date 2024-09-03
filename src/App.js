@@ -8,7 +8,7 @@ import Home from "./routes/Home";
 import About from "./routes/About"
 import Contact from "./routes/Contact"
 import Project from "./routes/Project"
-import { Route, Routes} from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 
 
 function App() {
